@@ -65,6 +65,7 @@ class Saolei {
                 handleClass(c, 'opened')
                 handleClass(h1, 'red')
             } else if (n === '0') {
+                handleClass(c, 'opened')
                 this.vjklAround(x, y)
             } else {
                 handleClass(c, 'opened')
