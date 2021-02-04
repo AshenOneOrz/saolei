@@ -1,0 +1,55 @@
+html,
+body {
+    background-color: aliceblue;
+    padding: 16px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    flex-direction: column;
+}
+
+#id-div-mime {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px #eee;
+}
+
+.row {
+    width: 450px;
+    display: flex;
+    justify-content: space-around;
+}
+.cell {
+    flex: 1;
+    text-align: center;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    border: 1px solid #eee;
+    color: #666;
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
+    font-size: 0px;
+}
+.opened {
+    font-size: 14px;
+}
+.cell:hover {
+    background-color: #eee;
+}
+
+h1 {
+    transition: all 0.1s ease-in-out;
+}
+.red {
+    color: red;
+    transform: scale(1.2);
+}
+
+.cell[data-number='9'] {
+    color: red;
+}
